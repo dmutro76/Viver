@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Mony' ;
+    src: url(font/beer\ money.ttf);
+}
+.tipclas{
+  text-align: center;
+    font-family: 'Mony';
+    color:#504B43;
+}
+.navbar-bg{
+    background-color: #8c66b8;
+}
+.navbar-bg a{
+    color: black;
+}
+.navbar-bg a:hover,
+.navbar-bg a:focus,
+.navbar-bg a:active{
+    color:green;
+}
+.burger-btn{
+    border: blanchedalmond;
+}
+.burger-btn:focus{
+    box-shadow: none;
+}
+.burger-icon{
+    background-image:none;
+    color: black;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.h-565{
+    height: 565px;
+}
+.h-565 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+.top-shadow{
+    box-shadow: 0 2px 8px #ffff;
+}
+.text-trailer{
+    text-align: center;
+    margin: 40px;
+}
+.text-geroi{
+    text-align: center;
+    margin: 40px;
+}
+.text-geroji-pro{
+    margin: 40px;
+}
+.colortxt1{
+    color: #504B43;
+}
+.txt_download{
+    text-align: center;
+}
+.text-center{
+    text-align: center;
+}
+body {
+    background-image:url(img/style/gaming-pattern.png);
+    backdrop-filter: blur(4px);
+} 
+.txt-download{
+    text-align: center;
+    margin: 40px;
+}
+.pictures {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pictures img {
+   
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text {
+    padding: 20px;
+}
+.txt-download-game{
+    text-align: center;
+    margin: 40px;
+}
+.txt-minimal{
+    text-align: center;
+}
+.vimogi{
+    font-size: 16px;
+}
+.pro-nas-golovni{
+    text-align: center;
+    margin: 40px;
+}
+.info-pro-nas{
+    font-size: 21px;
+}
+.navbar-container{
+ width: 100%;
+ position: sticky;
+ top: 0;
+ z-index: 20;
+}
+
+@media (max-width: 992px) {
+    .h-565{
+        height: 0;
+    }
+}
+.copiright{
+    margin: 40px;
+    display: flex;
+}
+.bing{
+    margin: 16px;
+}
